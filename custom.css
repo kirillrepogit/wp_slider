@@ -1,0 +1,33 @@
+﻿
+.flexslider {width: 100%;height: 100vh;border: 0; background: transparent;}
+.flexslider .slides {display:block; height: 100%;width: 100%; position: relative;}
+.flexslider .slides > li {height: 100%;}
+.flex-control-nav li a {cursor: pointer;}
+.flex-control-nav li a.active {transform: scale(1.1);}
+.flex-control-nav {bottom: -2rem;}
+
+.flex-direction-nav li a.next {background-position: -32px 0;right: 0;border-radius: 5px 0 0 5px;}
+.flex-direction-nav li a.prev {background-position: 0 0;left: 0;border-radius: 0 5px 5px 0;}
+.flex-direction-nav li a {width: 32px;}
+
+.flex-control-nav li a {
+    text-indent: -9999px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    background: rgba(0,0,0, .2);
+    -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+    box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+}
+.flex-control-nav li a.active {
+    background: rgba(0,0,0, .8);
+	cursor: default;
+	transform: scale(1.2);
+}
+
+.elem {height: 100%;width: 100%;}
